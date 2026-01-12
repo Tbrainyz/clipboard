@@ -163,7 +163,7 @@ header p {
   cursor: pointer;
 }
 footer p:hover {
-  color: var(--Gray500);
+  color: var(--Green500);
 }
 footer img:hover {
   filter: sepia(1) hue-rotate(125deg) saturate(5) brightness(105%);
@@ -182,6 +182,7 @@ footer img {
 @media (max-width:450px) {
   .parent {
     width:100% ;
+  
   }
   header {
     width: 100%;
